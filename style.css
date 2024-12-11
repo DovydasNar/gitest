@@ -1,10 +1,29 @@
 body {
-  margin: auto;
-  padding: auto;
-}
-div {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  background-color: rgb(122, 121, 121);
+  color: white;
   margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  #userForm {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(159, 159, 159);
+    box-shadow: 0 8px 5px mediumaquamarine;
+
+    #name {
+      height: 20px;
+      font-size: 13px;
+    }
+    #button {
+      width: 50px;
+      height: 25px;
+    }
+  }
 }
