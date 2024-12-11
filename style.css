@@ -1,10 +1,12 @@
 body {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(122, 121, 121);
   color: white;
   margin: 0 auto;
   padding: 10px;
-  display: flex;
   justify-content: center;
+  align-items: center;
 
   #userForm {
     border: 1px solid black;
@@ -25,5 +27,22 @@ body {
       width: 50px;
       height: 25px;
     }
+  }
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: auto;
+  width: 300px;
+
+  p {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
   }
 }
